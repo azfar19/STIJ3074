@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="login.css">
+    <script></script>
+  </head>
+
+  <body>
+    <h2 align="center">Registration Form</h2>
+  
+    <form action="register.php" enctype="multipart/form-data" method="post" align="center"
+      onsubmit="return confirm('Are you sure you want to register?');">
+
+    <div class="loginbox">
+   
+      <label for="name">Business Name:</label><br>
+      <input type="text" id="name" name="name" value="" required><br>
+  
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email" value="" required><br>
+  
+      <label for="businessid">Business ID:</label><br>
+      <input type="text" id="businessid" name="businessid" value="" required><br>
+  
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" value="" required><br><br>
+            
+            <input type="submit" value="Register" class="button">
+        </form>
+        <p align="center"><a href="index.html">Already register? Login</a></p>
+  
+    </div>
+  
+  </body>
+
+</html>
